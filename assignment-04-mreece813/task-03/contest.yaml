@@ -1,0 +1,27 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      stdout: |
+        Enter a file:
+      stdin: |
+        ../../test_files/01-short/loan_details.txt
+      ofstreams:
+        - file: test_files/01-short/loan_schedule.csv
+          test-file: loan_schedule.csv
+    - name: test-02
+      stdout: |
+        Enter a file:
+      stdin: |
+        ../../test_files/02-long/loan_details.txt
+      ofstreams:
+        - file: test_files/02-long/loan_schedule.csv
+          test-file: loan_schedule.csv
+    - name: test-03
+      return-code: 1
+      stdout: |
+        Enter a file:
+      stderr: |
+        Could not load ../../test_files/03-missing/loan_details.txt
+      stdin: |
+        ../../test_files/03-missing/loan_details.txt
