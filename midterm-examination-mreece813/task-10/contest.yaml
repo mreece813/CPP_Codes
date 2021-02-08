@@ -1,0 +1,19 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      timeout: 10
+      stdout: |
+        Enter a radius:
+        4188.79
+        1256.64
+      stdin: |
+        10
+    - name: test-02
+      timeout: 10
+      stdout: |
+        Enter a radius:
+        20579.5
+        3631.68
+      stdin: |
+        17

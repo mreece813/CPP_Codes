@@ -1,0 +1,18 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      timeout: 10
+      stdout: |
+        -482526205
+        1149770825
+        -640048843
+        1228483620
+        1874120675
+        1044688519
+        113889034
+        766161634
+        -1579291070
+        99740886
+        1169237650
+        -1299657065
