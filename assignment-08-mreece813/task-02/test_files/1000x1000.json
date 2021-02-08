@@ -1,0 +1,12 @@
+{
+    "parameters": {
+        "x_min": -0.7455,
+        "x_max": -0.7445,
+        "y_min":  0.10055,
+        "y_max":  0.10155,
+        "step":   0.000001,
+        "max_iterations": 500,
+        "thread_count": 4
+    },
+    "output": "1000x1000.dat"
+}

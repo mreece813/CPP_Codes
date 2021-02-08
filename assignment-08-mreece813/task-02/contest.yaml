@@ -1,0 +1,27 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      env:
+        DISABLE_MALEN: ""
+      returncode: 0
+      argv: ["test_files/10x10.json"]
+      ofstreams:
+        - file: test_files/10x10.dat
+          test-file: 10x10.dat
+    - name: test-02
+      env:
+        DISABLE_MALEN: ""
+      returncode: 0
+      argv: ["test_files/100x100.json"]
+      ofstreams:
+        - file: test_files/100x100.dat
+          test-file: 100x100.dat
+    - name: test-03
+      env:
+        DISABLE_MALEN: ""
+      returncode: 0
+      argv: ["test_files/1000x1000.json"]
+      ofstreams:
+        - file: test_files/1000x1000.dat
+          test-file: 1000x1000.dat

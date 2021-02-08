@@ -1,0 +1,10 @@
+{
+    "parameters": {
+        "x_min": -2.0,
+        "x_max": 0.5,
+        "y_min": -1.25,
+        "y_max": 1.25,
+        "step": 0.025
+    },
+    "output": "100x100.dat"
+}
