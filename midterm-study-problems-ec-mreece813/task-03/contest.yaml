@@ -1,0 +1,10 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      stdout: |
+        1.34
+        3.42
+        2.12
+        0.101
+        -91.789

@@ -1,0 +1,17 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      stdout: |
+        4
+        1
+        0
+        1
+        4
+        9
+        16
+        25
+        36
+        49
+        64
+        81

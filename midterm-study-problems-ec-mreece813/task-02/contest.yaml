@@ -1,0 +1,21 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: test-01
+      stdin: |
+        5
+      stdout: |
+        Enter a number:
+        120
+    - name: test-02
+      stdin: |
+        10
+      stdout: |
+        Enter a number:
+        3628800
+    - name: test-03
+      stdin: |
+        11
+      stdout: |
+        Enter a number:
+        39916800
